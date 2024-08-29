@@ -1,0 +1,89 @@
+ 
+
+/* Container for the entire component */
+.total-emp-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Button styling */
+.total-emp-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.total-emp-container button:hover {
+    background-color: #45a049;
+}
+
+/* Link inside the button */
+.total-emp-container button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header section styling */
+.postdata {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr 1fr;
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.postdata p {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Data rows styling */
+.data-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr 1fr;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+ 
+
+.data-row p {
+    margin: 0;
+    padding: 10px;
+}
+
+.data-row button {
+    background-color: #008CBA;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.data-row button:hover {
+    background-color: #007bb5;
+}
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+ 
+
+
